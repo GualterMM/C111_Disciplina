@@ -2,7 +2,6 @@ import numpy as np
 
 # Carregando Dataset
 dataset = np.loadtxt('space.csv', delimiter=';', dtype='str', encoding='utf-8')
-print(dataset[0,:])
 
 # Exercício 1 - Apresente a porcentagem de quantas missões deram certo
 print("==== Exercicio 1 ====")
